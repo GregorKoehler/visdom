@@ -1054,10 +1054,10 @@ class Visdom(object):
                 )
             elif cv2.__version__.startswith('3'):  # OpenCV 3
                 fourcc = cv2.VideoWriter_fourcc(
-                    chr(ord('T')),
-                    chr(ord('H')),
-                    chr(ord('E')),
-                    chr(ord('O'))
+                    chr(ord('M')),
+                    chr(ord('J')),
+                    chr(ord('P')),
+                    chr(ord('G'))
                 )
             writer = cv2.VideoWriter(
                 videofile,
